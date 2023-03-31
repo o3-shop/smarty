@@ -1,7 +1,7 @@
 {
-    "name": "smarty/smarty",
+    "name": "o3-shop/smarty",
     "type": "library",
-    "description": "Smarty - the compiling PHP template engine",
+    "description": "Smarty - the compiling PHP template engine - Limited fork of the 2.6 branch specifically for increased system requirements of the O3 shop before the switch to a current template engine in the near future.",
     "keywords": ["templating"],
     "homepage": "http://www.smarty.net",
     "license": "LGPL-3.0",
@@ -13,6 +13,10 @@
         {
             "name": "Uwe Tews",
             "email": "uwe.tews@googlemail.com"
+        },
+        {
+            "name": "O3-Shop",
+            "email": "info@o3-shop.com"
         }
     ],
     "support": {
@@ -29,5 +33,8 @@
             "libs/Smarty_Compiler.class.php",
             "libs/Config_File.class.php"
         ]
+    },
+    "replace": {
+        "smarty/smarty": "2.6.33"
     }
 }
